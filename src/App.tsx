@@ -1,4 +1,4 @@
-import React,{useEffect, useReducer} from "react";
+import {useEffect, useReducer} from "react";
 import "./App.css";
 import { initialState, timerReducer } from "./reducer";
 import { formatTime, getProgress } from "./utils";
